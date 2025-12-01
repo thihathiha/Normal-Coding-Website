@@ -18,22 +18,22 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/learning-path" element={<LearningPath/>} />
-        <Route path="/feedback" element={<Feedback/>} />
-        <Route path="/courses" element={<Courses/>} />
-        <Route path="/courses/uiux" element={<Uiux/>} />
-        <Route path="/courses/web-foundation" element={<WebFoundation/>} />
-        <Route path="/courses/styling-mastery" element={<StylingMastery/>} />
-        <Route path="/courses/react-mastery" element={<ReactMastery/>} />
-        <Route path="/aboutus" element={<AboutUs/>} />
-        <Route path="/projects" element={<Projects/>} />
-        <Route path="*" element={<ErrorPage/>} />
-      </Routes>
-      <Footer/>
-    </BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/learning-path" element={<LearningPath />} />
+          <Route path="/feedback" element={<Feedback />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/courses/uiux" element={<Uiux />} />
+          <Route path="/courses/web-foundation" element={<WebFoundation />} />
+          <Route path="/courses/styling-mastery" element={<StylingMastery />} />
+          <Route path="/courses/react-mastery" element={<ReactMastery />} />
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   )
 }
