@@ -5,6 +5,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #000;
   color: white;
+  box-sizing: border-box;
 }
 
 .card {
@@ -79,6 +80,9 @@ body {
 /* Heading text-4xl text-gray-200 font-bold
 Sub Heading text-2xl text-gray-300
 Paragraph text-sm text-gray-400 
+/* Heading text-4xl  font-bold text-gray-400 -> text-gray-200
+Sub Heading text-2xl text-gray-300
+Paragraph text-sm text-gray-200 -> text-gray-400
 * U can choose any tailwindcss color for the remaining colors *
 
 added prettier
