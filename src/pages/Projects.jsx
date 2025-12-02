@@ -74,7 +74,7 @@ function Projects() {
             isOdd ? "md:col-start-2" : "md:text-right"
           }`}
         >
-          <div className="group relative h-72 overflow-hidden rounded-xl border border-gray-800 bg-gray-900 shadow-lg">
+          <div className="group relative min-h-72 overflow-hidden rounded-xl border border-gray-800 bg-gray-900 shadow-lg">
             {/* Background */}
             <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-blue-500 to-purple-600 text-4xl font-bold text-white opacity-80">
               {project.team}

@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
       <footer className="w-full bg-black pt-4 pl-6 lg:pl-10 mt-16">
-        <section className="grid grid-cols-2 gap-6 md:grid-cols-3">
+        <section className="grid grid-cols-2 gap-3 md:grid-cols-3">
           <div className="col-span-2 lg:col-span-1">
             <div className="flex items-center">
               <img src={logo2} alt="logo2" className="w-[80px] lg:w-[100px]" />
@@ -38,7 +38,7 @@ function Footer() {
               </a>
             </div>
           </div>
-          <div className="pl-2">
+          <div className="pl-1">
             <h2 className="font-semibold">Quick Links</h2>
             <ul className="mt-2 text-sm leading-8 text-gray-400">
               <li>

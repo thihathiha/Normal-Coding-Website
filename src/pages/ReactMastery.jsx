@@ -3,6 +3,8 @@ import react from "../assets/react.png";
 import book from "../assets/book.png";
 import Details from "../components/Details.jsx";
 import checkPurple from "../assets/checkPurple.png";
+import { Link } from "react-router";
+
 const skillSections = [
   {
     id: 1,
@@ -52,12 +54,12 @@ function ReactMastery() {
   return (
     <>
       <section className="p-4">
-        <a href="/courses" className="inline-block">
+        <Link to="/courses" className="inline-block">
           <div className="flex cursor-pointer items-center">
             <img src={backArrow} alt="BackArrow" className="h-5 w-5" />
             <span className="text-md pl-2 text-gray-300">Back to Courses</span>
           </div>
-        </a>
+        </Link>
         <div className="flex items-center p-4">
           <img src={react} alt="react" className="w-15" />
           <div>

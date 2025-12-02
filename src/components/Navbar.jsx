@@ -1,4 +1,4 @@
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import { useState } from "react";
 import logo2 from "../images/logo2.png";
 
@@ -11,7 +11,9 @@ function Navbar() {
   return (
     <>
       <nav className="mb-16 flex h-[50px] w-full items-center justify-between px-8 lg:h-[60px] lg:px-20">
-        <img src={logo2} className="w-[100px] lg:w-[150px]" />
+        <Link to="/">
+          <img src={logo2} className="w-[100px] lg:w-[150px]" />
+        </Link>
 
         {/* Mobile View  */}
         <button onClick={toggleMenu} className="cursor-pointer lg:hidden">
