@@ -4,8 +4,8 @@ import logo2 from "../images/logo2.png";
 function Footer() {
   return (
     <>
-      <footer className="w-full bg-black pt-4 pl-6 lg:pl-10 mt-16">
-        <section className="grid grid-cols-2 gap-3 md:grid-cols-3">
+      <footer className="w-full bg-black pt-4 pl-4 lg:pl-10 mt-16">
+        <section className="grid grid-cols-2 gap-2 md:grid-cols-3">
           <div className="col-span-2 lg:col-span-1">
             <div className="flex items-center">
               <img src={logo2} alt="logo2" className="w-[80px] lg:w-[100px]" />

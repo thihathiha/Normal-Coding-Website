@@ -5,11 +5,11 @@ function Feedback() {
   return (
     <>
       <section className="w-[90%] flex flex-col items-center mx-auto lg:w-[75%]">
-        <h1 className="font-semibold text-gray-200 text-4xl mb-4">Students Feedback</h1>
-        <p className="text-gray-400 text-sm">Hear from students who transformed their careers with Normal Coding</p>
+        <h1 className="font-semibold text-gray-200 text-3xl mb-4">Students Feedback</h1>
+        <p className="text-gray-400 text-sm text-center">Hear from students who transformed their careers with Normal Coding</p>
         <div className="grid grid-cols-1 w-full gap-6 my-16 lg:grid-cols-2">
           {feedbackData.map(feedback => 
-            <div key={feedback} className="bg-linear-to-br from-slate-900 from-50% to-black to-100% rounded-md shadow-2xl p-12">
+            <div key={feedback} className="bg-linear-to-br from-slate-900 from-50% to-black to-100% rounded-md shadow-2xl p-8 lg:p-12">
               <span className="text-3xl text-yellow-600">{"★".repeat(feedback.rating)}{"☆".repeat(5 - feedback.rating)}</span>
               <p className="text-gray-200 text-sm lg:text-md max-w-[360px] my-6 leading-6">{feedback.comment}</p>
               <strong className="block text-sm text-gray-300">{feedback.name}</strong>
