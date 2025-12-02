@@ -1,3 +1,4 @@
+
 import { BrowserRouter, Routes, Route } from "react-router";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -14,7 +15,6 @@ import Projects from "./pages/Projects";
 import ErrorPage from "./pages/ErrorPage";
 
 function App() {
-
   return (
     <>
       <BrowserRouter>
@@ -27,7 +27,10 @@ function App() {
             <Route path="/courses" element={<Courses />} />
             <Route path="/courses/uiux" element={<Uiux />} />
             <Route path="/courses/web-foundation" element={<WebFoundation />} />
-            <Route path="/courses/styling-mastery" element={<StylingMastery />} />
+            <Route
+              path="/courses/styling-mastery"
+              element={<StylingMastery />}
+            />
             <Route path="/courses/react-mastery" element={<ReactMastery />} />
             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/projects" element={<Projects />} />
@@ -37,7 +40,7 @@ function App() {
         </div>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
