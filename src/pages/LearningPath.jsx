@@ -37,10 +37,10 @@ function LearningPath() {
       {/* Hero */}
       <section className="px-4 py-16">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="mb-6 text-4xl font-bold text-gray-200 md:text-5xl">
+          <h2 className="mb-6 text-4xl font-bold text-gray-200">
             Learning Path
           </h2>
-          <p className="text-sm text-gray-400">
+          <p className="text-sm text-gray-400 px-5">
             Follow our proven step-by-step journey from beginner to job-ready
             developer
           </p>
@@ -74,7 +74,7 @@ function LearningPath() {
       {/* CTA */}
       <section className="px-4 py-16 text-center">
         <Link to="/courses">
-          <button className="cursor-pointer rounded-lg bg-white px-8 py-4 font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-gray-100">
+          <button className="cursor-pointer rounded-lg bg-white px-8 py-3 text-black transition-all duration-300 hover:scale-105 hover:bg-gray-100">
             Start Your Journey
           </button>
         </Link>
