@@ -13,12 +13,14 @@ import ReactMastery from "./pages/ReactMastery";
 import AboutUs from "./pages/AboutUs";
 import Projects from "./pages/Projects";
 import ErrorPage from "./pages/ErrorPage";
+import ScrollTop from "./pages/ScrollTop";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <div className="flex flex-col min-h-screen justify-between">
+          <ScrollTop/>
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />

@@ -76,7 +76,7 @@ function Home() {
             </button>
           </Link>
         </div>
-        <h2 className="mt-14 text-4xl font-bold text-gray-200 lg:text-3xl">
+        <h2 className="mt-14 text-3xl font-bold text-gray-200 lg:text-4xl">
           Why Learn With Us
         </h2>
         <p className="mt-10 w-xs text-justify text-sm text-gray-400 md:w-xl lg:w-xl lg:text-center">
