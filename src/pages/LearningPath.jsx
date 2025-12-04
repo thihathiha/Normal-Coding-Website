@@ -55,7 +55,7 @@ function LearningPath() {
             <div className="space-y-8">
               {learningSteps.map((step, i) => (
                 <div key={i} className="relative flex items-start gap-6">
-                  <div className="z-10 flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-blue-500 to-purple-600 text-lg font-bold text-white">
+                  <div className="z-10 flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-gray-600 text-lg font-bold text-white">
                     {step.number}
                   </div>
                   <div className="flex-1 rounded-lg border border-gray-700 bg-gradient-to-br from-gray-900 to-gray-800 p-8 transition-all duration-300 hover:border-gray-600 hover:shadow-xl hover:shadow-blue-500/10">

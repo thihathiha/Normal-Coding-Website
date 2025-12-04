@@ -64,7 +64,7 @@ function Projects() {
     return (
       <div className="relative md:grid md:grid-cols-2 md:gap-x-8 items-center">
         {/* Badge */}
-        <div className="absolute top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold text-lg z-10 left-6 -translate-x-1/2 md:left-1/2 shadow-lg border-2 border-black">
+        <div className="absolute top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-gray-600 flex items-center justify-center text-white font-bold text-lg z-10 left-6 -translate-x-1/2 md:left-1/2 shadow-lg border-2 border-black">
           {String(index + 1).padStart(2, "0")}
         </div>
 
@@ -86,7 +86,7 @@ function Projects() {
               
               {/* Batch Badge */}
               <div className="flex w-full justify-end">
-                <span className="text-xs font-bold bg-purple-600 text-white px-3 py-1 rounded-full shadow-lg mb-4">
+                <span className="text-xs font-bold bg-gray-600 text-white px-3 py-1 rounded-full shadow-lg mb-4">
                   Batch {project.batch}
                 </span>
               </div>
@@ -139,7 +139,7 @@ function Projects() {
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-bold bg-gradient-to-r from-blue-500 to-purple-600 hover:shadow-lg hover:shadow-purple-500/30 transition-all w-full sm:max-w-44 justify-center focus:outline-none focus:ring-0"
+                    className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-bold bg-gray-600 hover:shadow-lg hover:shadow-purple-500/30 transition-all w-full sm:max-w-44 justify-center focus:outline-none focus:ring-0"
                   >
                     {/* Inline SVG for Link */}
                     <svg
