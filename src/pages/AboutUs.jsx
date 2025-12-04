@@ -36,7 +36,7 @@ const instructorsData = [{
 function AboutUs() {
   return (
     <>
-      <section className="max-w-4xl flex flex-col items-start justify-center gap-13 p-5 mx-auto my-3 ">
+      <section className="mt-28 max-w-4xl flex flex-col items-start justify-center gap-13 p-5 mx-auto my-3 ">
 
         <div>
           <h1 className="text-3xl md:text-4xl font-bold mb-5">Who We Are</h1>

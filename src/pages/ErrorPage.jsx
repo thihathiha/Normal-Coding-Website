@@ -3,7 +3,7 @@ import { Link } from "react-router";
 function ErrorPage() {
   return (
     <>
-      <div className="flex flex-col items-center gap-6">
+      <div className="mt-24 flex flex-col items-center gap-6">
         <h1 className="text-5xl tracking-wider font-semibold">404 - error</h1>
         <h2 className="text-xl uppercase">Page Not Found</h2>
         <p className="text-sm text-gray-400">Your search has ventured beyond the known universe.</p>

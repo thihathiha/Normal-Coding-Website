@@ -35,7 +35,7 @@ function LearningPath() {
   return (
     <>
       {/* Hero */}
-      <section className="px-4 py-16">
+      <section className="mt-12 px-4 py-16">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="mb-6 text-4xl font-bold text-gray-200">
             Learning Path

@@ -52,7 +52,7 @@ const skillSections = [
 function Uiux() {
   return (
     <>
-      <section className="p-4">
+      <section className="p-4 mt-24">
         <Link to="/courses" className="inline-block">
           <div className="flex cursor-pointer items-center">
             <img src={backArrow} alt="BackArrow" className="h-5 w-5" />

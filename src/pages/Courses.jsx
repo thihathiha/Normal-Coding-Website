@@ -41,7 +41,7 @@ function Courses() {
 
   return (
     <>
-      <section className="p-5 my-3 mx-auto max-w-4xl">
+      <section className="mt-24 p-5 mx-auto max-w-4xl">
         <div className="flex flex-col items-center justify-center mb-7">
           <h1 className="text-3xl md:text-4xl font-bold mb-5">Our Courses</h1>
           <p className="text-xs mb-6 md:text-sm text-center sm:w-3/4 lg:w-130 text-gray-400 ">Carefully structured training programs designed to help you build an impressive portfolio that employers notice.</p>

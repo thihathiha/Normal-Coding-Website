@@ -40,7 +40,7 @@ const homeCards = [
 function Home() {
   return (
     <>
-      <section className="flex min-h-screen w-full flex-col items-center">
+      <section className="mt-24 flex min-h-screen w-full flex-col items-center">
         <p className="p-4 text-xs text-gray-400">Web Development</p>
         <h1 className="text-5xl font-bold text-gray-200 lg:text-8xl">NORMAL</h1>
         <h1 className="border-t-4 border-white p-2 text-5xl font-bold lg:text-8xl">

@@ -4,7 +4,7 @@ import { Link } from "react-router";
 function Feedback() {
   return (
     <>
-      <section className="w-[90%] flex flex-col items-center mx-auto lg:w-[75%]">
+      <section className="mt-28 w-[90%] flex flex-col items-center mx-auto lg:w-[75%]">
         <h1 className="font-semibold text-gray-200 text-3xl mb-4">Students Feedback</h1>
         <p className="text-gray-400 text-sm text-center">Hear from students who transformed their careers with Normal Coding</p>
         <div className="grid grid-cols-1 w-full gap-6 my-16 lg:grid-cols-2">
